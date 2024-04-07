@@ -1,0 +1,25 @@
+{
+  "name": "node-npm",
+  "version": "1.0.0",
+  "description": "Belajar Node JS NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codewithwil07/Nodejs-Full-Course.git"
+  },
+  "keywords": [
+    "codewithwil07",
+    "cdw07",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Willy Syahputra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codewithwil07/Nodejs-Full-Course/issues"
+  },
+  "homepage": "https://github.com/Codewithwil07/Nodejs-Full-Course#readme"
+}
