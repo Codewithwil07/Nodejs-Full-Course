@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" id="form">
+        <p>Password</p>
+        <input type="password" id="password_input">
+        <button type="submit" id="confirm">masuk</button>
+    </form>
+    <p id="result"></p>
+    <script >
+        const password = document.getElementById("password_input")
+        const btn = document.getElementById("confirm")
+   
+
+        btn.addEventListener("click", () => {
+            if (password.inputMode == 'w') {
+                console.log("berhasil");
+            }else{
+                console.log("error")
+            }
+        })
+    </script>
+</body>
+</html>
